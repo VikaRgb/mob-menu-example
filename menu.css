@@ -1,0 +1,99 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav,
+.contacts-list {
+  display: none;
+}
+
+
+
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  
+}
+
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.mob-menu-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mob-menu-contacts-list-item:not(:last-child),.mob-menu-nav-list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mob-menu-social-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 64px;
+}
+
+.mob-menu-social-list-link {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+.mob-menu {
+  padding: 48px 40px;
+  height: 100vh;
+  width: 100vw;
+  background-color:tomato;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: 2s;
+}
+
+.mob-menu.is-hidden{
+  transform: translateX(100%);
+}

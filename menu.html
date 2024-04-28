@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./menu.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <a href="index.html" class="logo"
+          >Web<span class="header-logo">Studio</span></a
+        >
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-list-link active">Студія</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="nav-list-link">Портфоліо</a>
+            </li>
+            <li><a href="" class="nav-list-link">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts-list-link">
+              <svg width="16" height="12" class="contacts-list-icon">
+                <use href="./symbol-defs.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+38 096 111 11 11" class="contacts-list-link">
+              <svg width="16" height="12" class="contacts-list-icon">
+                <use href="./symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+        <button type="button" class="menu-open-btn">O</button>
+      </div>
+
+      <div class="mob-menu is-hidden">
+        <div class="container mob-menu-container">
+          <div class="mob-menu-top">
+            <button type="button" class="menu-close-btn">X</button>
+
+            <nav class="mob-menu-nav">
+              <ul class="mob-menu-nav-list">
+                <li class="mob-menu-nav-list-item">
+                  <a href="" class="mob-menu-nav-list-link">Студія</a>
+                </li>
+                <li class="mob-menu-nav-list-item">
+                  <a href="" class="mob-menu-nav-list-link">Портфоліо</a>
+                </li>
+                <li class="mob-menu-nav-list-item">
+                  <a href="" class="mob-menu-nav-list-link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="mob-menu-bottom">
+            <ul class="mob-menu-contacts-list">
+              <li class="mob-menu-contacts-list-item">
+                <a href="" class="mob-menu-contacts-list-link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mob-menu-contacts-list-item">
+                <a href="" class="mob-menu-contacts-list-link"
+                  >test@gmail.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="mob-menu-social-list">
+              <li class="mob-menu-social-item">
+                <a href="" class="mob-menu-list-link">Linkedin</a>
+              </li>
+              <li class="mob-menu-social-item">
+                <a href="" class="mob-menu-list-link">Linkedin</a>
+              </li>
+              <li class="mob-menu-social-item">
+                <a href="" class="mob-menu-list-link">Linkedin</a>
+              </li>
+              <li class="mob-menu-social-item">
+                <a href="" class="mob-menu-list-link">Linkedin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script src="./menu.js"></script>
+  </body>
+</html>
+
